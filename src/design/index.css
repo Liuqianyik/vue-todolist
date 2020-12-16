@@ -37,6 +37,10 @@ body {
   outline: 0;
 }
 
+.index {
+  position:relative;
+}
+
 .hidden {
   display: none;
 }
@@ -114,7 +118,7 @@ body {
 .toggle-all {
   width: 1px;
   height: 1px;
-  border: none; /* Mobile Safari */
+  border: none; 
   opacity: 0;
   position: absolute;
   right: 100%;
@@ -225,7 +229,7 @@ body {
 .todo-list li .destroy {
   display: none;
   position: absolute;
-  top: 0;
+  top: 20px;
   right: 10px;
   bottom: 0;
   width: 40px;
@@ -256,6 +260,7 @@ body {
 .todo-list li.editing:last-child {
   margin-bottom: -1px;
 }
+
 
 .footer {
   padding: 10px 15px;
